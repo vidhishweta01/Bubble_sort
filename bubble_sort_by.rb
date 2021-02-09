@@ -16,4 +16,5 @@ def bubble_sort_by(array)
 end
 
 print bubble_sort_by([10, 9, 8, 7, 6, 5, 4, 3, 2, 1]) { |l, r| l > r }
-puts 'hi'
+puts
+print bubble_sort_by(%w[hi hello hey]) { |l, r| l > r }
