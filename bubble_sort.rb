@@ -3,13 +3,12 @@ def bubble_sort(array)
   i = 0
   j = 0
   while j < n
-    s = n - j - 1
-    for i in 0...s
+    (n - j - 1).times do |i|
       if array[i] > array[i + 1]
         array[i], array[i + 1] = array[i + 1], array[i]
       end
     end
-        j += 1
+    j += 1
   end
   array
 end
