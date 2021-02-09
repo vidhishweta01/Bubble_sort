@@ -3,8 +3,9 @@ def bubble_sort(array)
   i = 0
   j = 0
   while j < n
-    for i in 0...n - j - 1
-      if array[i]>array[i + 1]
+    s = n - j - 1
+    for i in 0...s
+      if array[i]>array[i + 1] then
         array[i], array[i+1] = array[i + 1], array[i]
       end
     end
