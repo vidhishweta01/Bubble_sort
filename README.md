@@ -1,8 +1,8 @@
 # Bubble_sort
 
-![](./assets.Screenshot1.png)
+![Screenshot](./assets.Screenshot1.png)
 
-![](./assets.Screenshot2.png)
+![Screenshot](./assets.Screenshot2.png)
 
 Bubble_sort, as the name suggest is a implementation of bubble sort algorithm in ruby here in bubble_sort_by.rb I have used yield in place of second loop.
 
