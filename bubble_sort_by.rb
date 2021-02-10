@@ -3,12 +3,10 @@ def bubble_sort_by(array)
   j = 0
   i = 0
   while j < n
+    while i < n - j - 1
     res = yield(array[i], array[i + 1])
-    if res
-      array[i], array[i + 1] = array[i + 1], array[i]
-      i = 0
-    else
-      i += 1
+    array[i], array[i + 1] = array[i + 1], array[i] if res
+    i += 1
     end
     j += 1
   end
